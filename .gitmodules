@@ -1,0 +1,3 @@
+[submodule "hid_listen.submodule"]
+	path = hid_listen.submodule
+	url = git@github.com:jmagee/hid_listen.git
