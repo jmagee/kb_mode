@@ -26,7 +26,7 @@ write their own tool in any scripting language.
 
 Why not modify `hid_listen`?
 ----------------------------
-I considered modifying `hid_listen` directly, but decided against it bolting the
-way in which `hid_listen` processes the data makes it a bit messy to bolt on
-this functionality.  Adding a second tool that consumes the output of
-`hid_listen` seemed simpler, cleaner, and more unix-ey.
+I considered modifying `hid_listen` directly, but decided against it.  The way
+in which `hid_listen` processes the data makes it a bit messy to bolt on this
+functionality.  Adding a second tool that consumes the output of `hid_listen`
+seemed simpler, cleaner, and more unix-ey.
